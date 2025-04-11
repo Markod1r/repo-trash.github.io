@@ -7,30 +7,10 @@ div span {
 	color: aliceblue;
 }
 
-part1 {
-	display: flex;
-}
-part1 {
-	display: flex;
-}
-header nav {
-	height: 10rem;
-	display: flex; /* Aktifkan Flexbox */
-	justify-content: center; /* Pusatkan secara horizontal */
-	align-items: center; /* Pusatkan secara vertikal */
-}
-
-header nav .row {
-	width: 100%; /* Pastikan baris memenuhi lebar penuh */
-	text-align: center; /* Pusatkan teks di dalam kolom */
-}
 
 .logo {
-	width: 6rem; /* Atur ukuran logo lebih kecil */
-	height: auto;
 	background-color: transparent; /* Pastikan background transparan */
 	border: none; /* Hilangkan border jika ada */
-	box-shadow: none; /* Hilangkan bayangan jika ada */
 }
 
 .navbar .row {
