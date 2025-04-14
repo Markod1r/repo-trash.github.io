@@ -7,7 +7,6 @@ div span {
 	color: aliceblue;
 }
 
-
 .logo {
 	background-color: transparent; /* Pastikan background transparan */
 	border: none; /* Hilangkan border jika ada */
@@ -24,6 +23,8 @@ div span {
 	padding: 1rem; /* Tambahkan padding di dalam card */
 	border-radius: 8px; /* Tambahkan sudut melengkung */
 }
+
+
 
 .img-fluid {
 	height: auto;
@@ -44,4 +45,17 @@ footer {
 .img-fluid {
 	height: 10rem;
 	width: auto;
+}
+
+/* animasi */
+@keyframes animasi {
+	0% {
+		opacity: 0%;
+		transform: translateY(-4rem);
+	}
+
+	100% {
+		opacity: 100%;
+		transform: translateY(0rem);
+	}
 }
